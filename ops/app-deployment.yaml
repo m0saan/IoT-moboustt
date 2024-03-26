@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: wil-app
-          image: nginx
+          image:  wil42/playground:v2
           ports:
           - containerPort: 8888
 
